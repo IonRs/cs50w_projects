@@ -6,15 +6,14 @@
     </head>
     <body>
         <div class="position-absolute top-0 end-0 me-3 mt-2">
-            <a href="image.html">Image Search</a>
-            <a href="advanced.html">Advanced Search</a>
+            <a href="index.html">Google Search</a>
         </div>
         <div class="container-fluid">
-            <form action="https://google.com/search">
-                <input class="form-control mb-2 w-50 mx-auto" type="text" name="q" placeholder="Search Google or type a URL">
-                <div class="rounded">
-                    <input class="form-control w-25 mx-auto" type="submit" value="Google Search">
-                </div>    
+            <form action="https://images.google.com/search?">
+                <input class="form-control mb-2 w-50 mx-auto" type="text" name="q">
+                <input class="form-control w-25 mx-auto" type="submit" value="Google Image Search">
+
+                <input type="hidden" name="udm" value="2">
             </form>
         </div>
     </body>
